@@ -34,7 +34,7 @@ const getStyle = computed(() => {
 })
 
 function recover() {
-  if (props.disabled || props.count === 2)
+  if (props.disabled || props.count === 2 || over.value === true)
     return
 
   console.log('recover')

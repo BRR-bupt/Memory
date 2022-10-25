@@ -13,7 +13,7 @@ const moves = ref(0)
 function init() {
   nums.value = new Array(store.count)
   for (let i = 0; i < store.count; i++)
-    nums.value[i] = Math.floor(i / 2)
+    nums.value[i] = Math.floor(i / 2) > 9 ? Math.floor(i / 2) - 10 : Math.floor(i / 2)
 
   nums.value.sort(() => { return Math.random() - 0.5 })
 }
@@ -81,7 +81,7 @@ function compare() {
 }
 
 function restart() {
-  win.value = 'win'
+  win.value = ''
   clearInterval(timer)
   playerScore.value.fill(0)
   curPlayer.value = 0
