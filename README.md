@@ -2,9 +2,9 @@
 这是一个类似于连连看的游戏，但卡片是扣上的，每次翻开可以短暂的记忆卡片数字。
 
 ## Demo
-[网页链接](https://buptyi.xyz:8080/)
+[网页链接](https://brrmemory.netlify.app/)
 
-![首页截图](https://buptyi.xyz:8080/memory.jpg)
+![首页截图](https://brrblog.netlify.app/assets/memory.137c5abb.png)
 
 
 ## 🚀 Features
